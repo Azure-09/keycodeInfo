@@ -13,7 +13,7 @@
 
     // 注册keydown事件，获取键盘的event事件，收集成数组，赋值到各个盒子中
     document.addEventListener('keydown', function (e) {
-        e.key.preventDefault;
+        e.preventDefault();
         // 根据location不同的值展示不同的信息
         // DOM_KEY_LOCATION_STANDARD = 0
         // DOM_KEY_LOCATION_LEFT = 1
