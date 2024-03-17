@@ -119,9 +119,9 @@ window.addEventListener("keydown", event => {
   const cardInfo = cards.map(card => {
     card.onKeydown(event);
     return {
-      title: card.title,
-      content: card.content,
-      description: card.description,
+      title: card.getTitle(),
+      content: card.getContent(),
+      description: card.getDesc(),
     }
   })
   console.log(cardInfo);
