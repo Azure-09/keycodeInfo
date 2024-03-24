@@ -158,8 +158,7 @@ nav {
                     justify-content: space-between;
                     overflow: hidden;
 
-                    .fnkey,
-                    .hcode {
+                    .fnkey {
                         flex: 0 0 43%;
                         border: 2px solid #ccc;
                         text-align: center;
@@ -171,6 +170,19 @@ nav {
                         &:nth-child(n+3) {
                             margin-bottom: 0;
                         }
+                    }
+
+                    .hcode {
+                        flex: 0 0 46%;
+                        font-size: 20px;
+                        border-radius: 3px;
+                        background-color: transparent;
+                        overflow: hidden;
+                    }
+
+                    .hcode:hover {
+                        border-color: #204ECF;
+                        color: #204ECF;
                     }
                 }
 
@@ -196,6 +208,7 @@ nav {
                 .historyCode {
                     height: 114px;
                     overflow: hidden;
+
                     .hcode {
                         height: 50px;
                         border: 2px solid black;
@@ -238,7 +251,13 @@ nav {
 .changeBgc {
     border-color: black;
 }
-.changeStyle{
+
+.changeStyle {
     border-color: #204ECF;
     color: #204ECF;
+}
+
+.changeStatus {
+    border-color: #262D3D !important;
+    color: #262D3D !important;
 }

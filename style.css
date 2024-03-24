@@ -154,9 +154,7 @@ nav {
   overflow: hidden;
 }
 .main .content .list li .fnkeyAll .fnkey,
-.main .content .list li .historyCode .fnkey,
-.main .content .list li .fnkeyAll .hcode,
-.main .content .list li .historyCode .hcode {
+.main .content .list li .historyCode .fnkey {
   flex: 0 0 43%;
   border: 2px solid #ccc;
   text-align: center;
@@ -166,10 +164,21 @@ nav {
   overflow: hidden;
 }
 .main .content .list li .fnkeyAll .fnkey:nth-child(n+3),
-.main .content .list li .historyCode .fnkey:nth-child(n+3),
-.main .content .list li .fnkeyAll .hcode:nth-child(n+3),
-.main .content .list li .historyCode .hcode:nth-child(n+3) {
+.main .content .list li .historyCode .fnkey:nth-child(n+3) {
   margin-bottom: 0;
+}
+.main .content .list li .fnkeyAll .hcode,
+.main .content .list li .historyCode .hcode {
+  flex: 0 0 46%;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: transparent;
+  overflow: hidden;
+}
+.main .content .list li .fnkeyAll .hcode:hover,
+.main .content .list li .historyCode .hcode:hover {
+  border-color: #204ECF;
+  color: #204ECF;
 }
 .main .content .list li .dump {
   font-size: 10px;
@@ -229,4 +238,8 @@ nav {
 .changeStyle {
   border-color: #204ECF;
   color: #204ECF;
+}
+.changeStatus {
+  border-color: #262D3D !important;
+  color: #262D3D !important;
 }
