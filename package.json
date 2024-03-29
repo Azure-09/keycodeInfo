@@ -1,0 +1,23 @@
+{
+  "name": "keycodeinfo_vue3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.6",
+    "vue": "^3.4.21"
+  },
+  "dependencies": {
+    "element-plus": "^2.6.2",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0"
+  }
+}
